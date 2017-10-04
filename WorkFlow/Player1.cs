@@ -32,8 +32,14 @@ namespace WorkFlow
             box = new Rectangle(x, y , 150, 150);
         }
 
-    
-        public void update()
+        
+        public void Initialize()
+        {
+            Initialize();
+        }
+
+
+        public void Update(GameTime gt)
         {
             KeyboardState state = Keyboard.GetState();
 
@@ -58,13 +64,14 @@ namespace WorkFlow
             {
                 y += 5;
             }
+            Update(gt);
         }
 
         public void Draw(SpriteBatch sb, GameTime gt)
         {
             sb.Begin();
 
-            Draw(solidTexture, box, Color.Blue);
+            sb.Draw(solidTexture, box, Color.Red);
 
             sb.End();
 
