@@ -22,3 +22,27 @@ D:\WorkFlowProject\WorkFlow\WorkFlow\obj\x86\Debug\WorkFlow.csprojResolveAssembl
 D:\WorkFlowProject\WorkFlow\WorkFlow\obj\x86\Debug\WorkFlow.csproj.CoreCompileInputs.cache
 D:\WorkFlowProject\WorkFlow\WorkFlow\obj\x86\Debug\WorkFlow.exe
 D:\WorkFlowProject\WorkFlow\WorkFlow\obj\x86\Debug\WorkFlow.pdb
+D:\Monogame thing\WorkFlow\WorkFlow\bin\Windows\x86\Debug\WorkFlow.exe
+D:\Monogame thing\WorkFlow\WorkFlow\bin\Windows\x86\Debug\WorkFlow.pdb
+D:\Monogame thing\WorkFlow\WorkFlow\bin\Windows\x86\Debug\MonoGame.Framework.dll
+D:\Monogame thing\WorkFlow\WorkFlow\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+D:\Monogame thing\WorkFlow\WorkFlow\bin\Windows\x86\Debug\SharpDX.dll
+D:\Monogame thing\WorkFlow\WorkFlow\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+D:\Monogame thing\WorkFlow\WorkFlow\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+D:\Monogame thing\WorkFlow\WorkFlow\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+D:\Monogame thing\WorkFlow\WorkFlow\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+D:\Monogame thing\WorkFlow\WorkFlow\bin\Windows\x86\Debug\SharpDX.XInput.dll
+D:\Monogame thing\WorkFlow\WorkFlow\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+D:\Monogame thing\WorkFlow\WorkFlow\bin\Windows\x86\Debug\MonoGame.Framework.xml
+D:\Monogame thing\WorkFlow\WorkFlow\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+D:\Monogame thing\WorkFlow\WorkFlow\bin\Windows\x86\Debug\SharpDX.xml
+D:\Monogame thing\WorkFlow\WorkFlow\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+D:\Monogame thing\WorkFlow\WorkFlow\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+D:\Monogame thing\WorkFlow\WorkFlow\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+D:\Monogame thing\WorkFlow\WorkFlow\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+D:\Monogame thing\WorkFlow\WorkFlow\bin\Windows\x86\Debug\SharpDX.XInput.xml
+D:\Monogame thing\WorkFlow\WorkFlow\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+D:\Monogame thing\WorkFlow\WorkFlow\obj\x86\Debug\WorkFlow.csprojResolveAssemblyReference.cache
+D:\Monogame thing\WorkFlow\WorkFlow\obj\x86\Debug\WorkFlow.csproj.CoreCompileInputs.cache
+D:\Monogame thing\WorkFlow\WorkFlow\obj\x86\Debug\WorkFlow.exe
+D:\Monogame thing\WorkFlow\WorkFlow\obj\x86\Debug\WorkFlow.pdb
