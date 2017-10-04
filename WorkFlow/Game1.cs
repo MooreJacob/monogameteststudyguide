@@ -9,6 +9,7 @@ namespace WorkFlow
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        Player1 p;
 
         public Game1()
         {
@@ -19,17 +20,17 @@ namespace WorkFlow
    
         protected override void Initialize()
         {
-          
 
+            
             base.Initialize();
         }
 
    
         protected override void LoadContent()
         {
-
+            p = new Player1(100, 150);
             spriteBatch = new SpriteBatch(GraphicsDevice);
-
+            p.Loadcontent(GraphicsDevice);
             
         }
 
@@ -45,8 +46,9 @@ namespace WorkFlow
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-          
+            p.Update(gameTime);
             base.Update(gameTime);
+          
         }
 
  
@@ -54,7 +56,8 @@ namespace WorkFlow
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-          
+            p.Draw(spriteBatch, gameTime);
+
             base.Draw(gameTime);
         }
     }

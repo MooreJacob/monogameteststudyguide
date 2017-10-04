@@ -20,7 +20,7 @@ namespace WorkFlow
         public Player1(int a, int b)
         {
             x = a;
-            b = y;
+            y = b;
 
         }
 
@@ -64,7 +64,7 @@ namespace WorkFlow
             {
                 y += 5;
             }
-            Update(gt);
+          
         }
 
         public void Draw(SpriteBatch sb, GameTime gt)
