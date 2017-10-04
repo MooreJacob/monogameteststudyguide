@@ -12,17 +12,24 @@ namespace WorkFlow
     class Player1
     {
         private Texture2D solidTexture;
-        private GraphicsDevice spriteBatch;
-        private Rectangle p;
+        private Rectangle box;
         private int y;
         private int x;
 
-        public void Loadcontent()
+
+        public Player1(int a, int b)
         {
-            solidTexture = new Texture2D(spriteBatch, 1, 1);
+            x = a;
+            b = y;
+
+        }
+
+        public void Loadcontent(GraphicsDevice gd)
+        {
+            solidTexture = new Texture2D(gd, 1, 1);
             
             solidTexture.SetData(new Color[] { Color.White });
-            p = new Rectangle(x, y , 150, 150);
+            box = new Rectangle(x, y , 150, 150);
         }
 
     
@@ -31,6 +38,9 @@ namespace WorkFlow
             KeyboardState state = Keyboard.GetState();
 
             bool leftArrowKeyDown = state.IsKeyDown(Keys.Left);
+            bool RightArrowKeyDown = state.IsKeyDown(Keys.Right);
+            bool UpArrowKeyDown = state.IsKeyDown(Keys.Up);
+            bool DownArrowKeyDown = state.IsKeyDown(Keys.Down);
 
             if (state.IsKeyDown(Keys.Left))
             {
@@ -50,11 +60,11 @@ namespace WorkFlow
             }
         }
 
-        public void Draw(SpriteBatch sb,GameTime gt)
+        public void Draw(SpriteBatch sb, GameTime gt)
         {
             sb.Begin();
 
-            Draw(sb, gt);
+            Draw(solidTexture, box, Color.Blue);
 
             sb.End();
 
